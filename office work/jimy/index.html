@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+
+  <style type="text/css">
+  .glry-img
+  {
+    background-image: url('img/3.jpg');
+    background-repeat: no-repeat;
+    height: 400px;
+    color: white;
+    text-align: center;
+  }
+  </style>
+</head>
+<body>
+	
+
+	<div class="container">
+    <div class="row">
+     <div class="col-lg-6 col-md-6 col-sm-12">
+        <div class="glry-img">
+          <h3>Gallery</h3>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+          tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+          quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+          consequat.</p>
+          <button>Learn More</button>
+        </div>
+     
+    </div>
+    <div class="col-lg-6 col-md-6 col-sm-12">
+        <div class="glry-img">
+          <h5>RESIDENTIAL</h5>
+          <h3>Services / Products</h3>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+          tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+          quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+          consequat.</p>
+          <button>Learn More</button>
+        </div>
+
+        michael@<span style="color: red;">v</span><span style="color: yellow;">i</span><span style="color: green;">b</span>e
+     
+    </div>
+    </div>
+</div>
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script type="text/javascript">
+    $(document).ready(function(){
+        function addRemoveClass(theRows){
+            theRows.removeClass("odd even");
+            theRows.filter(":odd").addClass("tg-xidp");
+            theRows.filter(":even").addClass("tg-3eis");
+        }
+        var rows = $("table#myTable tr:not(:first-child)");
+        $("#selectField").on("change",function() {
+            var selected = this.value;
+            if(selected != "All"){
+                rows.filter("[position="+selected+"]").show();
+                rows.not("[position="+selected+"]").hide();
+                var visibleRows = rows.filter("[position="+selected+"]").show();
+                addRemoveClass(visibleRows);
+            }else{
+                rows.show();
+                addRemoveClass(rows);
+            }
+        });
+    });
+</script>
+<select id="selectField" style="color: white; background-color: black; padding: 10px 30px; font-family: Montserrat, Arial, Helvetica, sans-serif; border: 0px; width: 250px; height:70px;">
+    <option value="All" selected>All</option>
+    <option value="Boxing">Boxing</option>
+    <option value="MuayThai">Muay Thai</option>
+    <option value="OpenMat">Open Mat</option>
+</select>
+<br>
+<table class="tg" id="myTable">
+  <tbody><tr>
+    <th class="tg-zu8c" width="100px"></th>
+    <th class="tg-j8c8" width="150px"><span style="font-weight:bold">MONDAY</span></th>
+    <th class="tg-k8xc" width="150px"><span style="font-weight:bold">TUESDAY</span></th>
+    <th class="tg-k8xc" width="150px"><span style="font-weight:bold">WEDNESDAY</span></th>
+    <th class="tg-k8xc" width="150px"><span style="font-weight:bold">THURSDAY</span></th>
+    <th class="tg-k8xc" width="150px"><span style="font-weight:bold">FRIDAY</span></th>
+    <th class="tg-k8xc" width="150px"><span style="font-weight:bold">SATURDAY</span></th>
+    <th class="tg-j8c8" width="150px"><span style="font-weight:bold">SUNDAY</span></th>
+  </tr>
+  <tr position="Boxing">
+    <td class="tg-xidp"><span style="font-weight:bold">10:00 am</span></td>
+    <td class="tg-xidp"></td>
+    <td class="tg-xidp"></td>
+    <td class="tg-xidp"></td>
+    <td class="tg-xidp"></td>
+    <td class="tg-xidp"></td>
+    <td class="tg-epna">Boxing with Ryan Williams 10:00 am to 11:00 am </td>
+    <td class="tg-xidp"></td>
+  </tr>
+  <tr position="MuayThai">
+    <td class="tg-3eis"><span style="font-weight:bold">11:00 am</span></td>
+    <td class="tg-3eis"></td>
+    <td class="tg-3eis"></td>
+    <td class="tg-3eis"></td>
+    <td class="tg-3eis"></td>
+    <td class="tg-3eis"></td>
+    <td class="tg-3eis"></td>
+    <td class="tg-3eis"></td>
+  </tr>
+  <tr position="Boxing">
+    <td class="tg-xidp"><span style="font-weight:bold">5:00 pm</span></td>
+    <td class="tg-epna">Boxing with Lockie Williams 5:00 pm to 6:00 pm</td>
+    <td class="tg-xidp"></td>
+    <td class="tg-epna">Boxing with Lockie Williams 5:00 pm to 6:00 pm</td>
+    <td class="tg-xidp"></td>
+    <td class="tg-xidp"></td>
+    <td class="tg-xidp"></td>
+    <td class="tg-xidp"></td>
+  </tr>
+  <tr position="OpenMat">
+    <td class="tg-3eis"><span style="font-weight:bold">5:45 pm</span></td>
+    <td class="tg-epna">Open Mat with Ivo Dos Santos 6:00 pm to 7:00 pm</td>
+    <td class="tg-3eis"></td>
+    <td class="tg-epna">Open Mat with Bak Sukhari 6:00 pm to 7:00 pm</td>
+    <td class="tg-3eis"></td>
+    <td class="tg-3eis"></td>
+    <td class="tg-3eis"></td>
+    <td class="tg-3eis"></td>
+  </tr>
+  <tr position="MuayThai">
+    <td class="tg-xidp"><span style="font-weight:bold">6:00 pm</span></td>
+    <td class="tg-epna">Open Mat with Bak Sukhari</td>
+    <td class="tg-xidp"></td>
+    <td class="tg-epna">Open Mat with Bak Sukhari </td>
+    <td class="tg-xidp"></td>
+    <td class="tg-xidp"></td>
+    <td class="tg-xidp"></td>
+    <td class="tg-xidp"></td>
+  </tr>
+  <tr position="MuayThai">
+    <td class="tg-xidp"><span style="font-weight:bold">6:30 pm</span></td>
+    <td class="tg-epna">Muay Thai with Bak Sukhari</td>
+    <td class="tg-xidp"></td>
+    <td class="tg-xidp"> </td>
+    <td class="tg-epna">Muay Thai with Bak Sukhari</td>
+    <td class="tg-xidp"></td>
+    <td class="tg-xidp"></td>
+    <td class="tg-xidp"></td>
+  </tr>
+</tbody></table>
+
+
+
+	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="js/jquery-3.5.1.slim.min.js"></script>
+</body>
+</html>

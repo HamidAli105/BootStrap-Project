@@ -1,0 +1,40 @@
+
+.bg
+{
+	background-image: url("https://cdn.shopify.com/s/files/1/0496/7055/3760/collections/8917835B-C3AD-4663-8E4D-6D744C44CFE2-4C0FED08-89BC-45E1-AA50-692B5E45BBF9_540x.jpg") !important;
+	background-size: cover;
+    width: 540px;
+    height: 280px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: black;
+    transition: all 0.8s ease;
+}  
+.bg:hover{
+	webkit-transform: scale(1.03);
+    -moz-transform: scale(1.03);
+    -ms-transform: scale(1.03);
+    -o-transform: scale(1.03);
+    transform: scale(1.03);
+
+}
+.txt
+{
+	text-align: center;
+    font-size: 30px;
+    font-style: italic;
+    text-align-last: center;
+    padding-top: 90px;
+    font-weight: bold;
+    color: white !important;
+    text-decoration: none;
+    position: center;
+}
+
+a:hover
+{
+ 
+ text-decoration: none;
+ animation: 
+
+}

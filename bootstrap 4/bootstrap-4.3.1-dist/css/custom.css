@@ -1,0 +1,43 @@
+
+/*main div*/
+.main{
+	width:100%;
+	height:auto;
+}
+
+/*Navbar */
+
+/*top bar */
+/*top-color*/
+.top-nav{
+	color:white;
+	
+}
+.navbar-brand-color{
+	color:white;
+	
+}
+.form-bg{
+	color:black;
+}
+.form-group{
+	width: 220px;
+    height: 120px;
+    padding: 0px 0px 0px 0px;
+	
+}
+.form-width{
+	font-size:16px;
+	padding:0px 0px 0px 12px;
+}
+.modal-content{
+	width:85%!important;
+	
+}
+/*End navbar*/
+
+/*StarAbout*/
+
+.arrival-bg{
+	padding-top:150px;
+}

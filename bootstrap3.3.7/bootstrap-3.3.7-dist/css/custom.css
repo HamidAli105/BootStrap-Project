@@ -1,0 +1,394 @@
+@charset "utf-8";
+/* CSS Document */
+/*main div*/
+.main{
+	width:100%; 
+	height:auto; 
+	
+}
+/*top nav margin*/
+.top-margin{
+	margin:5px 0px 0px 0px;
+	color:black;
+	
+}
+
+/*navbar*/
+.navbar{
+	     margin-bottom:0px!important;
+}
+/*End Navbar*/
+
+/*About*/
+.about-bg{
+	padding-bottom:20px;
+	padding-top:80px;
+}
+.about-img{
+	width:100%; height:100%;
+	margin:0px 0px 0px 0px;
+	
+}
+/*End About*/
+
+/* Use line*/
+.section-title-divider {
+    width: 60px;
+    height: 3px;
+    background: #03C4EB;
+    margin: 0 auto;
+	margin-bottom:0px;
+    margin-bottom: 20px;
+}
+
+/*Start Service*/
+
+.service-bg{
+	padding-bottom:20px;
+	background-color:#FDFDFD;
+	padding-top:80px;
+	
+}
+.one-row{
+    margin-bottom:30px;
+	margin-top:30px;
+}
+
+.service-item{
+	margin-bottom:20px;
+	margin:0px 0px 0px 0px;
+	color:#333333;
+	font-family:"Open Sans", sans-serif;
+	float:left;
+	
+	
+}
+.design-icon{
+	float: left;
+    background-color: #03C4EB;
+    padding: 3px 0px 0px 11px;
+    border-radius: 50%;
+    transition: 0.5s;
+    border: 1px solid #03C4EB;
+    font-size: 40px;
+    color: #fff;
+    width: 65px;
+    height: 65px;
+}
+.design-margin{
+	margin:0px 0px 0px 10px;
+	color:black;
+	
+	
+}
+.design-text{
+	margin:10px 0px 0px 77px;
+	color:black;
+	
+	
+}
+
+
+.development-icon{
+	float: left;
+    background-color: #03C4EB;
+    padding: 6px 0px 0px 10px;
+    border-radius: 50%;
+    transition: 0.5s;
+    border: 1px solid #03C4EB;
+    font-size: 40px;
+    color: #fff;
+    width: 65px;
+    height: 65px;
+}
+.scraping-icon{
+	float: left;
+    background-color: #03C4EB;
+    padding: 6px 0px 0px 14px;
+    border-radius: 50%;
+    transition: 0.5s;
+    border: 1px solid #03C4EB;
+    font-size: 40px;
+    color: #fff;
+    width: 65px;
+    height: 65px;
+}
+.service-icon{
+	float: left;
+    background-color: #03C4EB;
+    padding: 5px 0px 0px 11px;
+    border-radius: 50%;
+    transition: 0.5s;
+    border: 1px solid #03C4EB;
+    font-size: 40px;
+    color: #fff;
+    width: 65px;
+    height: 65px;
+}
+
+
+	
+.mobile-icon{
+	float: left;
+    background-color: #03C4EB;
+    padding: 5px 0px 0px 19px;
+    border-radius: 50%;
+    transition: 0.5s;
+    border: 1px solid #03C4EB;
+    font-size: 40px;
+    color: #fff;
+    width: 65px;
+    height: 65px;
+}
+.e-commerce-icon{
+	float: left;
+    background-color: #03C4EB;
+    padding: 0px 0px 0px 12px;
+    border-radius: 50%;
+    transition: 0.5s;
+    border: 1px solid #03C4EB;
+    font-size: 40px;
+    color: #fff;
+    width: 65px;
+    height: 65px;
+}
+
+.seo-icon{
+	float: left;
+    background-color: #03C4EB;
+    padding: 4px 0px 0px 13px;
+    border-radius: 50%;
+    transition: 0.5s;
+    border: 1px solid #03C4EB;
+    font-size: 40px;
+    color: #fff;
+    width: 65px;
+    height: 65px;
+}
+/*End Service*/
+
+/*Start Stafmembers*/
+
+.staf-bg{
+	background-color:#F9F9F9;
+	padding-bottom:100px;
+	padding-top:80px;
+}
+
+/*End Stafmembers*/
+
+/*Start Testimonial*/
+
+.testmonial-bg{
+	background-color:#F6F6F6;
+    padding-bottom:20px;
+	padding-top:80px;
+}
+
+/*client pic*/
+
+.client-pic {
+    border-radius: 50%;
+    border: 6px solid #fff;
+    margin-bottom: 15px;
+    overflow: hidden;
+    height: 250px;
+    width: 250px;
+	
+}
+
+.client-text{
+    position: relative;
+    background: #fff;
+    padding: 60px;
+    margin-top: 40px;
+    font-size: 16px;
+    font-style: italic;
+    border-radius: 5px;
+}
+/*End Testimonial*/
+/*Start Contact Us*/
+
+.contactus-bg{
+	background-color:#EFEEEE;
+    padding-bottom:10px;
+	padding-top:80px;
+}
+.lets-shake{
+	text-align:center;
+	color:blue;
+}
+.head-office{
+	width:100%;
+	height:80px;
+    float:left;
+	margin-bottom:10px;
+}
+.head-name{
+	color:purple;
+	font-family:sans-serif;
+	font-size:18px;
+}
+
+.address-icon{
+	float: left;
+    background-color: #03C4EB;
+    padding: 4px 0px 0px 17px;
+    border-radius: 50%;
+    transition: 0.5s;
+    border: 1px solid #03C4EB;
+    font-size: 40px;
+    color: #fff;
+    width: 65px;
+    height: 65px;
+	   
+}
+.call-icon{
+	float: left;
+    background-color: #03C4EB;
+    padding: 0px 0px 0px 22px;
+    border-radius: 50%;
+    transition: 0.5s;
+    border: 1px solid #03C4EB;
+    font-size: 50px;
+    color: #fff;
+    width: 65px;
+    height: 65px;
+	   
+}
+.mail-icon{
+	float: left;
+    background-color: #03C4EB;
+    padding: 2px 0px 0px 12px;
+    border-radius: 50%;
+    transition: 0.5s;
+    border: 1px solid #03C4EB;
+    font-size: 40px;
+    color: #fff;
+    width: 65px;
+    height: 65px;
+	   
+}
+.address-margin{
+	margin:8px 0px 0px 80px;
+	
+	
+}
+.call-center{
+	margin-left:80px;
+}
+
+.form-icon{
+	float: left;
+    background-color: #03C4EB;
+    padding: 6px 0px 0px 16px;
+    border-radius: 50%;
+    transition: 0.5s;
+    border: 1px solid #03C4EB;
+    font-size: 40px;
+    color: #fff;
+    width: 65px;
+    height: 65px;
+	   
+}
+
+.form-margin{
+	margin:25px 0px 0px 0px;
+
+
+}
+.contactwri-margin{
+	margin:5px 0px 0px 75px;
+}
+.contactname-margin1{
+	margin:0px 0px 0px 10px;
+}
+
+.form-group{
+	width:45%;
+	height:50px;
+	float:left;
+	margin: 0px 0px 0px 4px;
+}
+
+.form-name{
+	font-size:18px;
+	
+}
+.message-group{
+	width:90%;
+	height:90px;
+	float:left;
+	margin:0px 0px 0px 6px;
+}
+.message-buttton{
+	margin:15px 0px 0px 155px;
+}
+/*End Contactus*/
+
+/*Start Footer*/
+
+.footer-bg{
+	
+    background-color:black;
+	color:white;
+	width:100%;
+	 height:100px;
+}
+	
+.footer-icon{
+	float: left;
+    background-color: #03C4EB;
+    padding: 1px 0px 0px 9px;
+    border-radius: 50%;
+    transition: 0.5s;
+    border: 1px solid #03C4EB;
+    font-size: 30px;
+    color: #fff;
+    width: 45px;
+    height: 45px;
+	margin-left: 2px;
+	   
+}
+
+.skype-icon{
+	float: left;
+    background-color: #03C4EB;
+    padding: 0px 0px 0px 8px;
+    border-radius: 50%;
+    transition: 0.5s;
+    border: 1px solid #03C4EB;
+    font-size: 32px;
+    color: #fff;
+    width: 45px;
+    height: 45px;
+	margin-left: 2px;
+	   
+}
+.facebook-icon{
+	float: left;
+    background-color: #03C4EB;
+    padding: 3px 0px 0px 12px;
+    border-radius: 50%;
+    transition: 0.5s;
+    border: 1px solid #03C4EB;
+    font-size: 30px;
+    color: #fff;
+    width: 45px;
+    height: 45px;
+	margin-left: 2px;
+	   
+}
+	
+.copy-right{
+	font-size: 12px;
+	margin-bottom: 10px;
+	text-align:center;
+	
+}
+
+.devloper-name{
+	text-align:right;
+	padding:10px 0px 0px 0px;
+}
+/*End Footer*/

@@ -1,0 +1,272 @@
+/* =================================
+***** [Core Stylesheet - v1.0] *****
+================================= */
+
+/* ----------------------------------------------
+:: Template Name: School Management System
+:: Template Author: Hamid Ali
+:: Template Author URI: firstmove.com.au
+:: Version: v1.0.0
+:: Last Updated: 07-26-2020
+---------------------------------------------- */
+
+/* ***** Import All CSS ***** */
+
+@import 'css/bootstrap/bootstrap.min.css';
+@import 'css/others/animate.css';
+@import 'css/others/magnific-popup.css';
+@import 'css/others/owl.carousel.min.css';
+@import 'css/others/font-awesome.min.css';
+@import 'css/others/elegant-font.css';
+@import 'css/others/themify-icons.css';
+
+/* --------------------
+:: 1.0 Base CSS
+-------------------- */
+
+*,
+ul,
+li {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    position: relative;
+    z-index: auto;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    color: #232d37;
+    line-height: 1.25;
+}
+
+p {
+    font-family: 'Poppins', sans-serif;
+    color: #51545f;
+    font-size: 14px;
+    line-height: 2;
+    font-weight: 400;
+}
+
+
+a,
+a:hover,
+a:focus,
+a:active {
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    -webkit-transition-duration: 600ms;
+    transition-duration: 600ms;
+    outline: none;
+}
+
+li {
+    list-style: none;
+}
+
+/* Preloader CSS */
+
+#preloader {
+    overflow: hidden;
+    background: #7450fe;
+    background: -webkit-linear-gradient(to right, #7450fe, #21d397);
+    background: -webkit-linear-gradient(left, #7450fe, #21d397);
+    background: linear-gradient(to right, #7450fe, #21d397);
+    height: 100%;
+    left: 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 999999;
+}
+
+.loader {
+    width: 46px;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    margin-top: -12px;
+    margin-left: -23px;
+    z-index: 9;
+}
+
+@-webkit-keyframes rotate {
+    0% {
+        -webkit-transform: translateY(0%);
+    }
+    30% {
+        -webkit-transform: translateY(-0.25em);
+    }
+    50% {
+        -webkit-transform: translateY(0%);
+    }
+    70% {
+        -webkit-transform: translateY(0.25em);
+    }
+}
+
+.loader .inner1,
+.loader .inner2,
+.loader .inner3 {
+    display: inline-block;
+    margin: 0.125em;
+    width: 0.5em;
+    height: 0.5em;
+    border: 1px solid #fff;
+    border-radius: 1em;
+    background-color: #fff;
+    -webkit-transform-origin: 50%;
+    -webkit-animation-duration: 0.75s;
+    -webkit-animation-name: rotate;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-timing-function: linear;
+}
+
+.loader .inner2 {
+    -webkit-animation-delay: 0.1875s;
+}
+
+.loader .inner3 {
+    -webkit-animation-delay: 0.375s;
+}
+
+
+/* Header Area CSS */
+
+#header-sticky-wrapper {
+    position: absolute;
+    width: 100%;
+}
+
+.header_area {
+    background-color: blue;
+    width: 100%;
+    height: 70px;
+  
+}
+
+.is-sticky .header_area {
+    background-color: blue;
+    width: 100%;
+    border-bottom: 1px solid transparent;
+}
+
+.header_area .navbar-brand {
+    margin-right: 0;
+    font-size: 30px;
+    color: #fff;
+    font-weight: 700;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 25px;
+    padding-left: 25px;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+#logo
+{
+  width: 110px;
+  height: 60px;
+}
+/* Start Hero area css */
+/*Admin Hero Section*/
+.hero-admin-bgimg
+{
+background-image: url(img/bg-img/hero3.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+width: 100%;
+height: 450px;
+}
+/*Teacher Hero Section*/
+.hero-teacher-bgimg
+{
+background-image: url(img/bg-img/hero4.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+width: 100%;
+height: 450px;
+}
+/*Contact Us Hero Section*/
+.hero-teacher-bgimg
+{
+background-image: url(img/bg-img/hero2.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+width: 100%;
+height: 450px;
+}
+
+/*Form Area*/
+.form-bg
+{
+ background-color: gray;
+}
+.form-style
+{
+ background-color: white;
+}
+.form-heading
+{
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;  
+}
+.form-format
+{
+    font-size: 22px;
+}
+.form-label
+{
+    font-size: 20px;
+}
+.btn-format
+{
+    padding: 3px 3px 3px 3px;
+    margin: 8px 0px 8px 0px;
+    background-color: green;
+    color: white;
+}
+/*End Hero Area */
+/* Footer Area CSS*/
+.footer-copywrite-area {
+    background-color: blue;
+    height: 40px;
+    color: white;
+    text-align: center;
+    padding-top: 10px;
+}
+
+
+
+
+/*Media Query*/
+
+@media (max-width: 767px) and (min-width: 320px)
+{
+.footer-copywrite-area 
+{
+    height: 50px !important;
+}   
+#logo 
+{
+    width: 80px;
+    height: 50px;
+}
+
+}

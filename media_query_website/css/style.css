@@ -1,0 +1,162 @@
+.main{
+	width:100%;
+	height:auto;
+}
+/*.............Start Header..............*/
+.bg-img{
+	background-image:url(../images/home/home-bg-img.jpg);
+	background-size:100% 100%;
+	background-attachment:fixed;
+	width:100%;
+	height:680px;
+}   
+
+.hearderset{
+	padding-top:200px;
+	box-sizing:border-box;
+}
+.hearderset h2{
+	font-size:30px;
+	font-weight:bold;
+}
+.hearderset h1{
+	font-size:50px;
+	font-weight:bold;
+}
+
+/*.............End Header..............*/
+
+/*.............Start Ourservices..............*/
+
+.ourservices{
+	padding:50px; 0px; 50px;
+	height:800px;
+	width:100%;
+}
+.ourservices h1{
+	font-size:42px;
+	font-weight:bold;
+}
+.rowsetting{
+	margin:60px;
+}
+.imgsetting{
+	border-radius:50px;
+	height:100px;
+	width:100px;
+	background-color: yellowgreen;
+	color:white;
+}
+.fa-shopping-cart{
+	padding:22px;
+}
+.fa-desktop{
+	padding:28px;
+}
+.fa-lock{
+	padding:25px;
+}
+
+.rowsetting h3{
+	margin-top:10px;
+	font-weight:bold;
+	font-size:30px;
+}
+.rowsetting p{
+	padding:10px;
+}
+.imgsettingtwo{
+	border-radius:50px;
+	height:100px;
+	width:100px;
+	background-color: yellowgreen;
+	color:white;
+	padding-top: 23px;
+    font-size: 20px;
+}
+
+/*..................PORTFOLIO..............*/
+
+.portfolio{
+	width:100%;
+	height:1000px;
+	padding-top:50px;
+	padding-bottom:50px;
+
+}
+.paragrph-margin{
+	margin-bottom:40px;
+}
+.row-margin{
+	margin-bottom:20px;
+}
+
+.portfolio h1{
+	font-size:50px;
+	font-weight:bold;
+}
+/*.....................OurTeam...............*/
+.ourteam{
+	width:100%;
+	height:700px;
+	padding:100px 0px 50px;
+}
+.ourteam h1{
+	font-size:50px;
+	font-weight:bold;
+}
+.ourteamsetting{
+	padding-top:80px;
+}
+
+/*............fotter..........*/
+
+.footer{
+	height:50px;
+	line-height:50px;
+	text-align:center;
+}
+
+/*...........Media Query..............*/
+
+@media(min-width:992){
+	
+}
+
+@media(min-width:768px) and (max-width:991px){
+	
+}
+@media(min-width:575px) and (max-width:767px){
+	
+}
+
+@media(min-width:480px) and (max-width:574px){
+	
+}
+@media(max-width:479px){
+	.hearderset h2{
+	font-size:30px;
+	font-weight:bold;
+}
+.hearderset h1{
+	font-size:40px;
+	font-weight:bold;
+}
+	.ourservices{
+    height:2500px;
+	width:100%;
+}
+.portfolio{
+	width:100%;
+	height:2200px;
+	
+}.ourteam{
+	width:100%;
+	height:1500px;
+	
+}
+
+
+}
+
+
